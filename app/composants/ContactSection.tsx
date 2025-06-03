@@ -129,7 +129,7 @@ export const ContactSection = () => {
                   </svg>
                 </a>
                 <a
-                  href="www.linkedin.com/in/aganze-dev-8331a12a5"
+                  href="https://linkedin.com/in/aganze-dev-8331a12a5"
                   target="_blank"
                   className="p-3 rounded-full bg-base-content/10 hover:bg-primary/10 text-base-content hover:text-primary transition-colors"
                 >
