@@ -3,35 +3,83 @@ import { containerVariants, itemVariants } from "../utils/framerMotionUtils";
 export const SkillsSection = () => {
   const skills = [
     {
+      category: "Générale",
+      items: [
+        "Développement Web (Frontend + Backend)",
+        "Développement Mobile (cross-platform)",
+        "Data Science & Machine Learning (bases)",
+        "Assistants IA",
+        "DevOps (CI/CD, déploiement)",
+        "Administration systèmes Linux (grandes lignes)",
+        "Notions en Réseaux informatiques",
+      ],
+    },
+    {
       category: "Frontend",
       items: [
         "React",
         "Next.js",
         "TypeScript",
         "Material UI",
-        "TailwindCSS(+plugin..)",
+        "TailwindCSS (+plugins, DaisyUI..)",
         "Framer Motion",
+        "SEO (Search Engine Optimization)",
       ],
     },
     {
       category: "Backend",
       items: [
         "Node.js",
-        "Nextjs",
+        "Next.js",
         "Express",
-        "FastAPI(python)",
-        "MongoDB",
-        "MysQL",
-        "Prisma",
+        "FastAPI (Python)",
+        "REST API",
+        "Authentification (JWT, OAuth, NextAuth)",
       ],
     },
     {
-      category: "Outils",
-      items: ["Git", "Linux", "Nginx", "Docker"],
+      category: "Bases de données",
+      items: [
+        "MySQL",
+        "SQLite",
+        "PostgreSQL",
+        "MongoDB",
+        "Prisma (ORM)",
+        "Conception de schémas (MCD/MLD)",
+      ],
     },
     {
       category: "Mobile",
-      items: ["Flutter"],
+      items: ["Flutter (iOS, Android, Desktop)", "WebView / Hybrid apps"],
+    },
+    {
+      category: "Data & AI",
+      items: [
+        "Python (Pandas, NumPy, Scikit-learn)",
+        "Analyse exploratoire de données",
+        "Chatbots & NLP (LLMs, APIs OpenAI / HuggingFace)",
+        "Data Visualization (Matplotlib, Plotly, Seaborn)",
+        "Bases en statistiques & probabilités",
+      ],
+    },
+    {
+      category: "Réseaux & Systèmes",
+      items: [
+        "Linux (administration, bash scripting)",
+        "Nginx (reverse proxy, hébergement)",
+        "DNS, HTTP/HTTPS, SSL/TLS (bases)",
+        "Notions en sécurité réseau (firewall, certificats)",
+        "Supervision & logs (journalctl, htop, netstat)",
+      ],
+    },
+    {
+      category: "DevOps & Outils",
+      items: [
+        "Git & GitHub",
+        "CI/CD (GitHub)",
+        "Cloud basics (Vercel)",
+        "Testing (Postman)",
+      ],
     },
   ];
 
