@@ -43,7 +43,7 @@ export const ContactSection = () => {
           <div className="flex w-full justify-between">
             <motion.div
               variants={itemVariants}
-              className="flex w-full justify-between items-center"
+              className="flex md:flex-col w-full justify-between items-center"
             >
               <div>
                 <h3 className="text-xl font-semibold mb-4">Mes coordonnées</h3>
