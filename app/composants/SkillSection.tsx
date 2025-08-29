@@ -114,7 +114,7 @@ export const SkillsSection = () => {
                     {skill.items.map((item) => (
                       <span
                         key={item}
-                        className="badge badge-outline hover:badge-primary transition-colors"
+                        className="badge badge-outline hover:badge-primary transition-colors whitespace-normal break-words  h-auto min-h-[2rem] py-2"
                       >
                         {item}
                       </span>
