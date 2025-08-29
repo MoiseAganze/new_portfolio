@@ -53,7 +53,7 @@ export const Footer = () => {
           </motion.div>
 
           {/* Newsletter */}
-          <motion.div variants={itemVariants} className="max-w-md">
+          {/* <motion.div variants={itemVariants} className="max-w-md">
             <h3 className="text-lg font-semibold mb-6 text-primary">
               Newsletter
             </h3>
@@ -86,7 +86,7 @@ export const Footer = () => {
             <div className="mt-4 text-sm text-base-content/50">
               Nous ne partageons jamais votre email.
             </div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* Copyright */}

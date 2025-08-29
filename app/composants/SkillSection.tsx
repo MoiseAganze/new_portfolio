@@ -15,11 +15,23 @@ export const SkillsSection = () => {
     },
     {
       category: "Backend",
-      items: ["Node.js", "Express", "NestJS", "MongoDB", "MysQL", "Prisma"],
+      items: [
+        "Node.js",
+        "Nextjs",
+        "Express",
+        "FastAPI(python)",
+        "MongoDB",
+        "MysQL",
+        "Prisma",
+      ],
     },
     {
       category: "Outils",
       items: ["Git", "Linux", "Nginx", "Docker"],
+    },
+    {
+      category: "Mobile",
+      items: ["Flutter"],
     },
   ];
 
